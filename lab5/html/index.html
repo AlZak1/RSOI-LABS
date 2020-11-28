@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <form>
+        ФИО<input id="name" type="text" class="input-form"><br>
+        Номер телефона <input id="number" type="text" class="input-form"><br>
+        Адрес<input id="adress" type="text" class="input-form">
+        Помощь <input id="help" class="input-form" type="text">
+
+        <div class="row">
+            <button id="add-btn" class="btn-form" type="submit">Ввести новую запись</button>
+            <button id="clear-btn" class="btn-form" type="submit">Очистить форму</button>
+            <button id="del-btn" class="btn-form" type="submit">Удалить запись с ID</button>
+            <select id="select-del"></select>
+            <button id="show-btn" class="btn-form" type="submit">Показать все записи</button>
+        </div>
+        <div class="row">
+            <button id="name-btn" class="btn-form" type="submit">ФИО пациентов</button>
+            <button id="add-property-btn" class="btn-form" type="submit">Добавить свойство</button>
+            <input type="text" placeholder="Свойство" id="property">
+        </div>
+        <table id="my-table" class="table hide">
+            <tr>
+                <td>ID</td>
+                <td>ФИО</td>
+                <td>Арес</td>
+                <td>Телефон</td>
+                <td>Признак оказания помощи</td>
+            </tr>
+        </table>
+    </form>
+    <script src="../js/index.js"></script>
+</body>
+</html>

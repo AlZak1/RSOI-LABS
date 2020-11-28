@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+    <header>
+        <h2>Countries</h2>
+    </header>
+
+    <form>
+        <table>
+            <tr>
+                <td><label for="country">Country</label></td>
+                <td><input type="text" name="country-input" id="country"></td>
+            </tr>
+            <tr>
+                <td><label for="capital">Capital</label></td>
+                <td><input type="text" name="capital-input" id="capital"></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <label><input type="radio" id="small" name="size" value="10px" checked="checked">Small</label>
+                    <label><input type="radio" id="medium" name="size" value="20px">Medium</label>
+                    <label><input type="radio" id="large" name="size" value="30px">Large</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"><button id="load-button" type="button">XML</button></td>
+            </tr>
+            <tr>
+                <td colspan="2"> <button id="script-button" type="button">Local script</button></td>
+            </tr>
+            <tr>
+                <td colspan="2"> <button id="show-data-button" type="button">Show data</button></td>
+            </tr>
+
+        </table>
+    </form>
+    <div id="placeForModal"></div>
+    <div id="errorModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>Error</p>
+            
+            <button type="button" onclick="location.reload();">Reload page</button>
+            <button type="button" onclick="window.location.replace('error-page.html')">ErrorPage</button>
+            
+        </div>
+    </div>
+    <footer></footer>
+</body>
+<script src="../js/jquery.js"></script>
+<script src="../js/main.js"></script>
+
+</html>

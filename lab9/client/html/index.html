@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/jquery.js"></script>
+</head>
+<body>
+    
+    <div class="form">
+        <input type="text" id="region" placeholder="Region">
+        <input type="number" id="temp" placeholder="Temperature">
+        <input type="checkbox" id="downfall">Downfall
+        <input type="date" id="date">
+    </div>
+
+    <span>
+        <button id="btn-1">Send data</button>
+        <button id="btn-2">Delete data</button>
+        <input type="number" id="number-id" placeholder="ID">
+    </span>
+    
+    <span>
+        <button id="min-temp">Min Temp</button>
+        <button id="min-date-temp" type="submit">Min Temp for Date</button>
+        <input type="date" id="date-temp">
+    </span>
+
+    <table id="tbl">
+        <tr>
+            <td>Id</td>
+            <td>Region</td>
+            <td>MidTemp</td>
+            <td>Downfall</td>
+            <td>Date</td>
+        </tr>
+    </table>
+
+    <script src="../js/index.js"></script>
+</body>
+</html>

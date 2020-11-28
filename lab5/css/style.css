@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid blue;
+    border-radius: 5px;
+    background-color: cadetblue;
+    width: 50%;
+}
+
+button{
+    border: 2px solid darkblue;
+    border-radius: 5px;
+    background-color: cornflowerblue;
+}
+
+table, tr, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-top: 5px;
+}
+
+div{
+    margin-top: 10px;
+}
+
+.hide{
+    display: none;
+}

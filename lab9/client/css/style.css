@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    margin: 5px;
+}
+
+table, tr, td{
+    border: 2px solid blue;
+    border-collapse: collapse;
+    padding: 5px;
+    background-color: rgb(183, 247, 167);
+    margin-top: 5px;
+}
+
+span{
+    margin-top: 5px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid blue;
+    background-color: darkgrey;
+    border-radius: 7px;
+    width: 30%;
+    height: auto;
+}
+
+.btn-1{
+    margin-top: 5px;
+}
